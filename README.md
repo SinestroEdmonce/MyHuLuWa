@@ -5,6 +5,7 @@
 
 
 ![image](Image/StartMenu.png)
+
 ![image](Image/Starts.png)
 
 此时有两种选择，可以选择按下空格键直接进入战斗，如下图：
