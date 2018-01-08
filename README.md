@@ -6,11 +6,11 @@
 
 ![image](Image/StartMenu.png)
 
-![image](Image/Starts.png)
+![image](Image/Starts.jpg)
 
 此时有两种选择，可以选择按下空格键直接进入战斗，如下图：
 
-![image](Image/Battle.png)
+![image](Image/Battle.jpg)
 
 或者是按下L键选择文件进行回放。
 
@@ -18,7 +18,7 @@
 
 战斗结束场景如下:
 
-![image](Image/Ends.png)
+![image](Image/Ends.jpg)
 
 如果选择了播放文件，将开始回放某一保存的录像记录，txt文件内的格式必须符合程序要求，否则将不能播放。
 ***
