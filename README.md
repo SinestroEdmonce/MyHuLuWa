@@ -4,11 +4,12 @@
 本程序模拟了葫芦娃七兄弟与妖怪队伍作战的场景，战斗开始前可以弹出面板选择葫芦娃的作战队形（鹤翼阵，锋矢阵等），选择结束后进入作战界面，按下空格战斗开始，按ESC退出战斗，在作战开始之前按下L可以选择作战录像进行回放，作战开始前葫芦娃居左，如下图：
 
 
-![image](ScreenShots/start.png)
+![image](Image/StartMenu.png)
+![image](Image/Starts.png)
 
 此时有两种选择，可以选择按下空格键直接进入战斗，如下图：
 
-![image](ScreenShots/formation.png)
+![image](Image/Battle.png)
 
 或者是按下L键选择文件进行回放。
 
@@ -16,19 +17,19 @@
 
 战斗结束场景如下:
 
-![image](ScreenShots/end.png)
+![image](Image/Ends.png)
 
 如果选择了播放文件，将开始回放某一保存的录像记录，txt文件内的格式必须符合程序要求，否则将不能播放。
 ***
 ## 部分实现细节说明
 ### 模块间关系
 
-![image](ScreenShots/end.png)
+![image](Image/ModuleRelation.png)
 
 ### 生物类
 此部分代码完全沿用了之前写过的葫芦娃程序，以Creature类为基类，派生出具体的类，结构如下图：
 
-![image](ScreenShots/end.png)
+![image](Image/ClassRelation.png)
 
 ### 背景类与战场类
 背景中的一个区域被划为战场，背景类中包含战场类battle。
