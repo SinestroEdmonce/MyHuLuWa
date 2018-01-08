@@ -22,29 +22,13 @@
 ***
 ## 部分实现细节说明
 ### 模块间关系
-```
-graph TD
-A[Main] --> B[UIBoard]
-B --> C[Creature]
-B -->|TWO| D[Space]
-B -->|THREE| E[Formation]
-B -->|FOUR| F[IO]
-B -->|FIVE| G[Queue]
-G --> C
 
-```
+![image](ScreenShots/end.png)
+
 ### 生物类
 此部分代码完全沿用了之前写过的葫芦娃程序，以Creature类为基类，派生出具体的类，结构如下图：
 
-```
-graph TD
-A[Thing2D] --> B[Creature]
-B -->|ONE| C[HuLuWa]
-B -->|TWO| D[LaoYeYe]
-B -->|THREE| E[SheJing]
-B -->|FOUR| F[XieZiJing]
-B -->|FIVE| G[XiaoLouLuo]
-```
+![image](ScreenShots/end.png)
 
 ### 背景类与战场类
 背景中的一个区域被划为战场，背景类中包含战场类battle。
