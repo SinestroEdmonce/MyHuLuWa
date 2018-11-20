@@ -1,0 +1,5 @@
+creature\CreatureTest.class
+uiboard\UIboardTest.class
+queue\QueueTest.class
+formation\FormationTest.class
+space\SpaceTest.class
